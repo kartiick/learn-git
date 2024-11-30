@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f8fa;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #24292e;
+    padding: 1rem;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: white;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn-primary {
+    padding: 0.7rem 1.5rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #e1e4e8;
+}
+
+.feature-item {
+    text-align: center;
+    width: 30%;
+}
+
+.cta {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #0366d6;
+    color: white;
+}
+
+.btn-secondary {
+    padding: 0.7rem 1.5rem;
+    background-color: white;
+    color: #0366d6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #24292e;
+    color: white;
+}
+
+.footer a {
+    color: white;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
